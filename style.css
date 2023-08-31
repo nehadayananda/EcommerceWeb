@@ -122,7 +122,7 @@ body{
 }
 /* Home page */
 #hero{
-    background-image: url("products/pexels-eyup-beyhan-7674327.jpg");
+    background-image: url("pexels-eyup-beyhan-7674327.jpg");
     height: 90vh;
     width:100%;
     background-size: cover;
@@ -140,7 +140,7 @@ body{
     color:rgb(63, 3, 98)
 }
 #hero button{
-    background-image: url("products/banner.png");
+    background-image: url("banner.png");
     background-color: transparent ;
     color:rgb(63, 3, 98) ;
     border: 0;
@@ -257,7 +257,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image:url("products/banner.jpg") ;
+    background-image:url("banner.jpg") ;
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -290,7 +290,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image:url("products/shop.jpg") ;
+    background-image:url("shop.jpg") ;
     width: 580px;
     height: 50vh;
     background-size: cover;
@@ -299,7 +299,7 @@ body{
 
 }
 #banner2 .banner-box2{
-    background-image:url("products/spring.jpg") ;
+    background-image:url("spring.jpg") ;
 }
 #banner2 h4{
     color: #502F4C;
@@ -334,7 +334,7 @@ color: white;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image:url("products/summer.jpg") ;
+    background-image:url("summer.jpg") ;
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -343,11 +343,11 @@ color: white;
     margin-bottom: 20px;
 }
 #banner3 .banner-box2{
-    background-image:url("products/Winter.jpg") ;
+    background-image:url("Winter.jpg") ;
     
 }
 #banner3 .banner-box3{
-    background-image:url("products/casual.jpg") ;
+    background-image:url("casual.jpg") ;
     
 
 }
@@ -416,7 +416,7 @@ footer .copyright{
 /*register*/
 .registration-header{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../products/reg-bg.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../reg-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -467,7 +467,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)) ,url("../products/rg-bg.png");
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)) ,url("../rg-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -570,7 +570,7 @@ color: #ece6f3;
 
 /* Shop html */
 #page-header{
-    background-image: url("products/page-header.jpg");
+    background-image: url("page-header.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -651,7 +651,7 @@ padding-top:30px;
 }
 
 #page-header.about {
-    background-image: url("products/about-header.jpg");
+    background-image: url("about-header.jpg");
 
 }
 #about-head{
@@ -776,7 +776,7 @@ align-items: flex-start;
     overflow-x: auto;
 }
 #page-header .cart{
-    background-image: url("products/page-header.jpg");
+    background-image: url("page-header.jpg");
 }
 #cart table{
     width: 100%;
