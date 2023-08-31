@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mona's centre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="products/mona.png" class="logo" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a  href="about.html">About</a></li>
+            <li><a  href="contact.html">Contact</a></li>
+            <li><a href="registration.html">Register</a></li>
+            <li id="lg-bag"><a class="active" href="cart.html"><i class="fas fa-shopping-cart cart"></i></a> </li>
+            <a href="#" id="close"><i class="fas fa-times"></i></a>
+        </ul>
+    </div>
+    
+    <div id="mobile"> 
+   <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+   <i id="bar" class="fas fa-outdent"></i>
+    </div>
+    
+    </section>
+    <section id="page-header" class="cart">
+        <h2>#Customization</h2>
+        <p> Organize your shopping list with ease..!!</p>
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>IMAGE</td>
+                    <td>PRODUCTS</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>SUBTOTAL</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a hreaf="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="products/f2.jpg" alt=""></td>
+                    <td>Formal Green Vest & Shorts</td>
+                    <td>$78.40</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td><a hreaf="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="products/f4.jpg" alt=""></td>
+                    <td>Wide leg Technical Fabric Jumpsuit</td>
+                    <td>$56.80</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$60</td>
+                </tr>
+                <tr>
+                    <td><a hreaf="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="products/f7.jpg" alt=""></td>
+                    <td>Long Elastic Dress</td>
+                    <td>$89.67</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$90</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <input type="text" placeholder="Enter your coupon">
+            <button class="normal">Apply</button>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$285</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$285</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img src="mona.jpg" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Ground Floor,Ambience Mall, DLF Phase 3,Gurugram,Haryana</p>
+            <p><strong>Phone: </strong> 1800 315 7808</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms And Conditions</a>
+            <a href="#">Contact Us</a>
+            
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Orders</a>
+            <a href="#">Help</a>
+            
+        </div>
+        <div class="col install">
+            <h4>Install App</h4> 
+            <p>From App Store Or Google Play </p>
+            <div class="row">
+                <img src="products/appstore.png" alt="">
+                <img src="products/Google_Play.png" alt="">
+            </div>
+            <p> Secured Payment Gateways</p>
+            <img src="products/paypal.png" alt="">
+        </div>
+        <div class="copyright">
+            <p> 0 2021, Tech2 etc- HTML SS Ecommerce Template </p>
+        </div>
+
+
+    </footer>
+<script src="script.js"></script>
+    
+</body>
+</html>
